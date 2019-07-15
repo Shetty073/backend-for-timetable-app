@@ -10,7 +10,5 @@ $conn = mysqli_connect($db_host, $db_user, "", $db_name);
 
 if (!$conn)
 {
-    header("error.php");
-    die();
+    exit(header("error.php"));
 }
-

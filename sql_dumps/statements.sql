@@ -207,50 +207,50 @@ CREATE TABLE IF NOT EXISTS ty_bms
 
 -- INSERTION OF WEEKDAYS
 -- IT
-INSERT INTO fy_it(week, lec1, lec2, lec3, lec4, lec5)
-VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (2, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (3, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (4, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (5, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (6, "lec1", "lec2", "lec3", "lec4", "lec5");
-INSERT INTO sy_it(week, lec1, lec2, lec3, lec4, lec5)
-VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (2, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (3, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (4, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (5, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (6, "lec1", "lec2", "lec3", "lec4", "lec5");
-INSERT INTO ty_it(week, lec1, lec2, lec3, lec4, lec5)
-VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (2, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (3, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (4, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (5, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (6, "lec1", "lec2", "lec3", "lec4", "lec5");
+INSERT INTO fy_it(week, lec1, lec2, lec3, lec4, lec5, lec6)
+VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (2, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (3, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (4, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (5, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (6, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6");
+INSERT INTO sy_it(week, lec1, lec2, lec3, lec4, lec5, lec6)
+VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (2, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (3, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (4, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (5, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (6, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6");
+INSERT INTO ty_it(week, lec1, lec2, lec3, lec4, lec5, lec6)
+VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (2, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (3, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (4, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (5, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (6, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6");
 
 -- CS
-INSERT INTO fy_cs(week, lec1, lec2, lec3, lec4, lec5)
-VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (2, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (3, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (4, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (5, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (6, "lec1", "lec2", "lec3", "lec4", "lec5");
-INSERT INTO sy_cs(week, lec1, lec2, lec3, lec4, lec5)
-VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (2, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (3, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (4, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (5, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (6, "lec1", "lec2", "lec3", "lec4", "lec5");
-INSERT INTO ty_cs(week, lec1, lec2, lec3, lec4, lec5)
-VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (2, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (3, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (4, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (5, "lec1", "lec2", "lec3", "lec4", "lec5"),
-       (6, "lec1", "lec2", "lec3", "lec4", "lec5");
+INSERT INTO fy_cs(week, lec1, lec2, lec3, lec4, lec5, lec6)
+VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (2, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (3, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (4, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (5, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (6, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6");
+INSERT INTO sy_cs(week, lec1, lec2, lec3, lec4, lec5, lec6)
+VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (2, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (3, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (4, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (5, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (6, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6");
+INSERT INTO ty_cs(week, lec1, lec2, lec3, lec4, lec5, lec6)
+VALUES (1, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (2, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (3, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (4, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (5, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6"),
+       (6, "lec1", "lec2", "lec3", "lec4", "lec5", "lac6");
 
 -- Commerce
 INSERT INTO fy_commerce_A(week, lec1, lec2, lec3, lec4, lec5)
