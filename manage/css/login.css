@@ -1,0 +1,46 @@
+body {
+    /*background: lightsteelblue;*/
+    /*background: #63AEFD;*/
+    color: #B00020;
+    background: #FFFFFF;
+}
+
+.login-form {
+    padding-top: 8%;
+    padding-left: 20%;
+    height: 500px;
+}
+
+.login-brand {
+    padding-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .login-form {
+        padding-left: 7%;
+        padding-top: 4%;
+    }
+
+    .login-brand {
+        padding-top: 30%;
+        font-size: 40px;
+    }
+}
+
+.btn {
+    color: #B00020;
+    border: 1px #B00020 solid;
+}
+
+.btn:hover {
+    background: #B00020;
+    border: 1px #B00020 solid;
+}
+
+input {
+    background: #FFFFFF;
+}
+
+

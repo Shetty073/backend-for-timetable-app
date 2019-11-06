@@ -1,0 +1,95 @@
+/* This file contains style adjustments for all our pages */
+
+.dboard {
+    padding-top: 45px;
+}
+
+.iconic:hover {
+    color: black;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #B00020;
+}
+
+.active {
+    color: #B00020;
+}
+
+.active:hover {
+    color: #B00020;
+}
+
+.management-nav {
+    font-weight: 500;
+}
+
+.sidebar-sticky {
+    position: sticky;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar-heading {
+    color: black !important;
+}
+
+h4 {
+    color: #B00020 !important;
+}
+
+.sidebar-heading span {
+    color: #474f57 !important;
+    font-weight: bold;
+}
+
+.navbar {
+    background: #B00020 !important;
+    color: #FFFFFF;
+}
+
+.card {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    border: #fec7d1 solid ;
+}
+
+.card:hover {
+    border: #B00020 solid;
+
+}
+
+.card-subtitle {
+    color: #B00020 !important;
+}
+
+.card-link {
+    color: #000000;
+}
+
+.card-link:hover {
+    color: #B00020;
+}
+
+.logged-in-as {
+    display: inline;
+}
+
+#logged-in-as {
+    color: #FFFFFF !important;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background: #B00020;
+    color: #FFFFFF;
+    border: 1px #B00020 solid;
+}
