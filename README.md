@@ -1,9 +1,5 @@
 ## Backend API for the TimeTable mobile app that I built for my college
 
-### Whats new?
-
-* New management console added for managing the timetable database
-
 #### API Documentation
 
 ##### Request URL: <http://[serverdomain]/index.php?class=class_name&day=day_no>
@@ -14,6 +10,12 @@
 , sy_commerce_a, etc. It is the name of the table in the database.
 * `day` -> [Integer Value] `day` must contain a numeric value (1-6). It represents the working days in a week.
 For eg 1 for Monday, 2 for Tuesday and so on (as represented in the database).
+
+
+### Whats new?
+
+* New management console added for managing the timetable database
+
 
 #### Management Console Documentation
 
