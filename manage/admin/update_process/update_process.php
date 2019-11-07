@@ -17,7 +17,7 @@ if ($_SESSION["loggedin"] == false) {
 
 // include the database variables (name, username, password)
 include_once "../../../include/dbconn.php";
-$conn1 = mysqli_connect($db_host, $db_user, "", $db_name);
+$conn1 = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
 // If connection fails kill current script and take the user to error page and let them know.
 if (!$conn1) {

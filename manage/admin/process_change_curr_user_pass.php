@@ -14,7 +14,7 @@ if ($_SESSION["loggedin"] == false) {
 include_once "../../include/dbconn.php";
 
 // Database connection
-$conn1 = mysqli_connect($db_host, $db_user, $db_pass, "timetable");
+$conn1 = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
 if (!$conn1) {
     header("Location: http://$_SERVER[HTTP_HOST]/manage/admin/change_curr_user_pass.php?err=4");

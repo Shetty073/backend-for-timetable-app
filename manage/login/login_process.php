@@ -9,7 +9,7 @@ session_start();
 include_once "../../include/dbconn.php";
 
 // Database connection
-$conn1 = mysqli_connect($db_host, $db_user, $db_pass, "timetable");
+$conn1 = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
 // Form data
 $usr = mysqli_real_escape_string($conn1, $_POST["username"]);

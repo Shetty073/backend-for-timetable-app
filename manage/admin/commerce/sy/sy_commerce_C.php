@@ -133,7 +133,7 @@ if ($_SESSION["loggedin"] == false) {
                 include_once "../../../../include/dbconn.php";
 
                 // Database connection
-                $conn1 = mysqli_connect($db_host, $db_user, $db_pass, "timetable");
+                $conn1 = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 
                 if (!$conn1) {
                     //    die("Error! could not connect to database".mysqli_error($conn));
